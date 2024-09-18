@@ -14,24 +14,42 @@ makeNegative()
 
 ## Sum of Positive
 
-```js
-
+```
+function positiveSum(arr) {
+sum = 0;
+  for (i = 0; i < arr.length; i++)
+  if (arr[i] > 0) {
+  sum += arr[i];
+    }
+  return sum
+   }
+  
 ```
 
 ## Function 2
 
-```js
-
+```
+function square(s) {
+  return s ** 2
+}
 ```
 
 ## Sum Arrays
 
-```js
-
+```
+// Sum Numbers
+function sum (numbers) {
+    "use strict";
+ if (numbers.length === 0) return 0; 
+  return numbers.reduce((total, currentValue) => total + currentValue);
+    
+};
 ```
 
 ## Reversed Strings
 
-```js
-
+```
+function solution(str){
+  return str.split('').reverse().join('')
+}
 ```
