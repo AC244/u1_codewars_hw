@@ -1,4 +1,4 @@
-## Return Negative
+// ## Return Negative
 ```js
 function makeNegative(num) {
   if (num < 0) {
@@ -32,6 +32,7 @@ function square(s) {
 }
 square()
 
+makeNegative()
 ```
 
 // ## Sum Arrays
